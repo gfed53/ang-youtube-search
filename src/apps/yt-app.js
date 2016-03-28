@@ -1,5 +1,7 @@
-angular
-.module('youTube', ['ui.router', 'ngAnimate'])
+(function(){
+  angular
+  .module('youTube', ['ui.router', 'ngAnimate'])
 
+})();
 
 

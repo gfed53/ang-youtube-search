@@ -1,7 +1,7 @@
 <!-- Where all of the search results will reside -->
-<div class="results" ng-if="results">
-	<h2>We found {{ results.length }} results for {{ keyword }}</h2>
-	<div ng-repeat="result in results">
-		<iframe ng-src="{{ trustSrc(embedUrl + result.id.videoId) }}" frameborder="0" width="480" height="390"></iframe>
+<div class="results" ng-if="search.results">
+	<h2>We found {{ search.results.length }} results for {{ search.keyword }}</h2>
+	<div ng-repeat="result in search.results">
+		<iframe ng-src="{{ search.trustSrc(embedUrl + result.id.videoId) }}" frameborder="0" width="480" height="390"></iframe>
 	</div>
 </div>

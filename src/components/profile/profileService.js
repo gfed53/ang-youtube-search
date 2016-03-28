@@ -1,3 +1,5 @@
 // Will use Local Storage API
-angular
-.module('youTube')
+(function(){
+	angular
+	.module('youTube')
+});

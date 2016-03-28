@@ -1,2 +1,4 @@
-angular
-.module('youTube')
+(function(){
+	angular
+	.module('youTube')
+})();
